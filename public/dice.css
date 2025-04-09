@@ -1,0 +1,119 @@
+:root {
+  --cinza80: #ccc;
+  /* A cor 003399 é WebSafe. */
+  /* https://corhexa.com/003399 */
+  --azul2: #003399;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px;
+  text-align: center;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  background: white;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(255,255,255,1);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dice {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.dot {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  opacity: 0;
+}
+
+.dot:nth-child(1) {  top: 10px;  left: 10px; }
+.dot:nth-child(2) {  top: 10px;  right: 10px;}
+.dot:nth-child(3) {  bottom: 10px;  left: 10px;}
+.dot:nth-child(4) {  bottom: 10px;  right: 10px;}
+.dot:nth-child(5) {  top: 50%;  left: 10px; transform: translateY(-50%);}
+.dot:nth-child(6) {  top: 50%;  right: 10px;  transform: translateY(-50%);}
+/* Para o "SIX" ficar deitado: */
+/* .dot:nth-child(5) {  top: 10px;  left: 50%; transform: translateX(-50%);}
+.dot:nth-child(6) {  bottom: 10px;  left: 50%;  transform: translateX(-50%);} */
+
+.button{
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  flex-basis: 100%;
+}
+
+.button:hover {
+  background-color: var(--azul2);
+}
+
+.one .dot:nth-child(7) { 
+  opacity: 1;
+}
+.two .dot:nth-child(1),
+.two .dot:nth-child(4) { 
+  opacity: 1;
+}
+.three .dot:nth-child(1),
+.three .dot:nth-child(4),
+.three .dot:nth-child(7) { 
+  opacity: 1;
+}
+.four .dot:nth-child(1),
+.four .dot:nth-child(2),
+.four .dot:nth-child(3),
+.four .dot:nth-child(4) { 
+  opacity: 1;
+}
+.five .dot:nth-child(1),
+.five .dot:nth-child(2),
+.five .dot:nth-child(3),
+.five .dot:nth-child(4),
+.five .dot:nth-child(7){ 
+  opacity: 1;
+}
+.six .dot:nth-child(1),
+.six .dot:nth-child(2),
+.six .dot:nth-child(3),
+.six .dot:nth-child(4),
+.six .dot:nth-child(5),
+.six .dot:nth-child(6){ 
+  opacity: 1;
+}
+
