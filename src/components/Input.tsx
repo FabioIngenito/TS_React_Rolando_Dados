@@ -5,6 +5,7 @@
 import React from 'react'
 import { NumeroContext } from './NumeroContext';
 
+// Esta linha foi para o arquivo "NumeroContext.ts" para resolver o problema de "Fast refresh":
 // export const NumeroContext = React.createContext(0);
 
 const Input = () => {
