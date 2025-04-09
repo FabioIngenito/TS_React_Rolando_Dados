@@ -15,8 +15,11 @@ Tomei como base este projeto:
 
 ----------------------------------------------
 How to design Dice in Html CSS and JavaScript
+
 14 de nov. de 2023
+
 ASP.NET MVC
+
 https://youtu.be/v2kjhrymhKI?si=fwyid_V8_XV1HZ60
 ----------------------------------------------
 
