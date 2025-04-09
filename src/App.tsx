@@ -19,7 +19,7 @@ function App() {
   return (
     <>
         <p>
-          Numero de Dados: &nbsp;
+          Número de Dados: &nbsp;
           <input
             id="numerodados"
             type="number"
