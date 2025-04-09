@@ -5,7 +5,7 @@
 
 <h1 align="left">DESENHAR E SORTEAR "N" DADOS DE ACORDO COM A ESCOLHA DO USUÁRIO</h1>
 
-
+![RolandoDados](https://github.com/user-attachments/assets/63d52da3-414d-4cd9-9b54-ee61e0fd0a48)
 
 <h2 align="left">Detalhes do projeto</h2>
 
