@@ -3,14 +3,18 @@
 | :sparkles: Nome        | **JS_React_Rolando_Dados**
 | :label: Tecnologias | Javascript Typescript React
 
+<h1 align="left">DRAW AND DRAW "N" DATA ACCORDING TO THE USER'S CHOICE</h1>
 <h1 align="left">DESENHAR E SORTEAR "N" DADOS DE ACORDO COM A ESCOLHA DO USUÁRIO</h1>
 
 ![RolandoDados](https://github.com/user-attachments/assets/63d52da3-414d-4cd9-9b54-ee61e0fd0a48)
 
+<h2 align="left">Project Details</h2>
 <h2 align="left">Detalhes do projeto</h2>
 
+Simple demonstration of drawing and drawing on the screen a certain number of dice according to the user's choice in an 'Input type="number"'.
 Simples demonstração de sorteio e desenho na tela de um determinado número de dados de acordo com a escolha do usuário em um 'Input type="number"'.
 
+I took this project as a basis:
 Tomei como base este projeto:
 
 ----------------------------------------------
