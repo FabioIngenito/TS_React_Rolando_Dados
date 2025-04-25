@@ -12,9 +12,11 @@
 <h2 align="left">Detalhes do projeto</h2>
 
 Simple demonstration of drawing and drawing on the screen a certain number of dice according to the user's choice in an 'Input type="number"'.
+
 Simples demonstração de sorteio e desenho na tela de um determinado número de dados de acordo com a escolha do usuário em um 'Input type="number"'.
 
 I took this project as a basis:
+
 Tomei como base este projeto:
 
 ----------------------------------------------
