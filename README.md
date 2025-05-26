@@ -1,6 +1,6 @@
 | :placard: Vitrine.Dev |  |
 | -------------  | --- |
-| :sparkles: Nome        | **JS_React_Rolando_Dados**
+| :sparkles: Nome        | **TS_React_Rolando_Dados**
 | :label: Tecnologias | Javascript Typescript React
 
 <h1 align="left">DRAW AND SORT "N" DATA ACCORDING TO THE USER'S CHOICE</h1>
